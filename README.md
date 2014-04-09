@@ -5,19 +5,35 @@ Afterglow is a minimal dark Theme for Sublime Text 2 and 3. Also it is a syntax 
 
 ## Design & Colors
 
-#### Afterglow screenshot
+#### Afterglow default
 
 ![Afterglow](Screenshots/Afterglow-default.png)
 
-#### Afterglow others colors
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-default.png)
+
+#### Afterglow blue
 
 ![Afterglow blue](Screenshots/Afterglow-blue.png)
 
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-blue.png)
+
+#### Afterglow magenta
+
 ![Afterglow magenta](Screenshots/Afterglow-magenta.png)
+
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-magenta.png)
+
+#### Afterglow orange
 
 ![Afterglow orange](Screenshots/Afterglow-orange.png)
 
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-orange.png)
+
+#### Afterglow green
+
 ![Afterglow green](Screenshots/Afterglow-green.png)
+
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-green.png)
 
 *The font used in the screenshots is [__Inconsolata -g__](http://leonardo-m.livejournal.com/77079.html).*
 
@@ -34,12 +50,12 @@ Locate your Sublime Text `Packages directory` by using the menu item `Preference
 
 Then, clone the repository using this command:
 
-    git clone https://github.com/yabatadesign/afterglow-theme/ "Theme - Afterglow"
+    git clone https://github.com/Yabatadesign/afterglow-theme/ "Theme - Afterglow"
 
 
 ### Manual installation
 
-* Download the [GitHub .zip](https://github.com/yabatadesign/Afterglow-theme/archive/master.zip)
+* Download the [GitHub .zip](https://github.com/Yabatadesign/afterglow-theme/archive/master.zip)
 * Unzip the files and rename the folder to `Theme - Afterglow`
 * Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
 * Copy the folder into your Sublime Text `Packages` directory.
