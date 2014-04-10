@@ -42,7 +42,12 @@ Afterglow is a minimal dark Theme for Sublime Text 2 and 3. Also it is a syntax 
 
 ### Package Control
 
-Comming soon!
+The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net/).
+
+* Open `Command Palette` using menu item `Tools -> Command Palette...`, or `Cmd+Shift+P` (OS X) `Ctrl+Shift+P` (Win/Linux)
+* Type `Package Control: Install Package`
+* Search `Theme - Afterglow`
+
 
 ### Git Installation
 
@@ -101,6 +106,23 @@ Then add the following code settings, depending on the theme you choose. **(Afte
         "theme": "Afterglow-green.sublime-theme"
         "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
     }
+
+
+## Tab Height Size Options
+
+You can change the height of the file tabs (medium or small) by adding either to your preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+    {
+        "tabs_medium": true
+    }
+
+or
+
+    {
+        "tabs_small": true
+    }
+
+![Afterglow Tabs](Screenshots/Afterglow-tabs.png)
 
 
 ## Markdown
