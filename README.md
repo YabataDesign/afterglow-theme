@@ -82,28 +82,28 @@ Then add the following code settings, depending on the theme you choose. **(Afte
 ### Settings for Afterglow-blue
 
     {
-        "theme": "Afterglow-blue.sublime-theme"
+        "theme": "Afterglow-blue.sublime-theme",
         "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
     }
 
 ### Settings for Afterglow-magenta
 
     {
-        "theme": "Afterglow-magenta.sublime-theme"
+        "theme": "Afterglow-magenta.sublime-theme",
         "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
     }
 
 ### Settings for Afterglow-orange
 
     {
-        "theme": "Afterglow-orange.sublime-theme"
+        "theme": "Afterglow-orange.sublime-theme",
         "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
     }
 
 ### Settings for Afterglow-green
 
     {
-        "theme": "Afterglow-green.sublime-theme"
+        "theme": "Afterglow-green.sublime-theme",
         "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
     }
 
