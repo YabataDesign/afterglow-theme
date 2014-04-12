@@ -115,6 +115,13 @@
         "shadow_offset": [0, 1]
     },
 
+    //  - Color inactive tab
+    {
+        "class": "tab_label",
+        "settings": ["color_inactive_tabs"],
+        "fg": [119, 59, 84] // 03
+    },
+
     //  - Active tab label
     {
         "class": "tab_label",
