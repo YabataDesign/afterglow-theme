@@ -125,6 +125,46 @@ or
 ![Afterglow Tabs](Screenshots/Afterglow-tabs.png)
 
 
+## Sidebar Size Options
+
+You can change the font size of the sidebar and the row padding.
+
+To **change the font size** (12, 13 or 14; default size is 11), you must add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+    {
+        "sidebar_size_12": true
+    }
+
+or
+
+    {
+        "sidebar_size_13": true
+    }
+
+or
+
+    {
+        "sidebar_size_14": true
+    }
+
+![Afterglow Sidebar Size](Screenshots/Afterglow-sidebar-size.png)
+
+
+To **change the row padding** (medium or large), you must add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+    {
+        "sidebar_row_padding_medium": true
+    }
+
+or
+
+    {
+        "sidebar_row_padding_large": true
+    }
+
+![Afterglow Sidebar Row Padding](Screenshots/Afterglow-sidebar-row-padding.png)
+
+
 ## Markdown
 
 ![Afterglow markdown](Screenshots/Afterglow-markdown.png)
