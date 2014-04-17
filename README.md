@@ -122,6 +122,8 @@ Then add the following code settings, depending on the theme you choose. **(Afte
 
 ### Tab Height Size Options
 
+![Afterglow Tabs](Screenshots/Afterglow-tabs.png)
+
 You can change the height of the file tabs (medium or small) by adding either to your preferences file `Sublime Text -> Preferences -> Settings - User`:
 
 ```json
@@ -138,12 +140,15 @@ or
 }
 ```
 
-![Afterglow Tabs](Screenshots/Afterglow-tabs.png)
-
 
 ### Sidebar Size Options
 
 You can change the font size of the sidebar and the row padding.
+
+
+#### Sidebar font size
+
+![Afterglow Sidebar Size](Screenshots/Afterglow-sidebar-size.png)
 
 To **change the font size** (12, 13 or 14; default size is 11), you must add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
 
@@ -169,8 +174,10 @@ or
 }
 ```
 
-![Afterglow Sidebar Size](Screenshots/Afterglow-sidebar-size.png)
 
+#### Sidebar row padding size
+
+![Afterglow Sidebar Row Padding](Screenshots/Afterglow-sidebar-row-padding.png)
 
 To **change the row padding** (medium or large), you must add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
 
@@ -188,10 +195,10 @@ or
 }
 ```
 
-![Afterglow Sidebar Row Padding](Screenshots/Afterglow-sidebar-row-padding.png)
-
 
 ### Status bar brighter
+
+![Afterglow Status bar brighter](Screenshots/Afterglow-status-bar.png)
 
 If you prefer that the status bar has a brighter color, you have to add this in your user preferences file `Sublime Text -> Preferences -> Settings - User`:
 
@@ -201,10 +208,10 @@ If you prefer that the status bar has a brighter color, you have to add this in 
 }
 ```
 
-![Afterglow Status bar brighter](Screenshots/Afterglow-status-bar.png)
-
 
 ### Color inactive tabs
+
+![Afterglow Color inactive tabs](Screenshots/Afterglow-inactive-tabs.png)
 
 You can highlight the color of inactive tabs, adding this to the user preferences file `Sublime Text -> Preferences -> Settings - User`:
 
@@ -214,10 +221,38 @@ You can highlight the color of inactive tabs, adding this to the user preference
 }
 ```
 
-![Afterglow Color inactive tabs](Screenshots/Afterglow-inactive-tabs.png)
+
+## Color schemes
+
+### Afterglow - Monokai
+
+![Afterglow Monokai](Screenshots/Afterglow-monokai.png)
+
+Besides color scheme by default, you can use the color scheme `Afterglow - Monokai` based on the original `Monokai`, slightly modified to be consistent with the Theme colors. 
+
+You must add this in your user preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme"
+}
+```
 
 
-## Markdown
+### Afterglow - Twilight
+
+![Afterglow Twilight](Screenshots/Afterglow-twilight.png)
+
+If you prefer, you can use the color scheme `Afterglow - Twilight` (very slightly modified from the original), adding this to the user preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow-twilight.tmTheme"
+}
+```
+
+
+### Markdown
 
 ![Afterglow markdown](Screenshots/Afterglow-markdown.png)
 
