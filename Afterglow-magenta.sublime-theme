@@ -452,6 +452,13 @@
         "parents": [{"class": "status_bar"}],
         "color": [81, 81, 81] // 02
     },
+    // Status bar label brighter
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "settings": ["status_bar_brighter"],
+        "color": [160, 160, 160]
+    },
 
 //
 // SIDEBAR

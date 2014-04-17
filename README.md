@@ -74,95 +74,147 @@ Then add the following code settings, depending on the theme you choose. **(Afte
 
 ### Settings for Afterglow
 
-    {
-        "theme": "Afterglow.sublime-theme",
-        "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
-    }
+```json
+{
+    "theme": "Afterglow.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+```
 
 ### Settings for Afterglow-blue
 
-    {
-        "theme": "Afterglow-blue.sublime-theme",
-        "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
-    }
+```json
+{
+    "theme": "Afterglow-blue.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+```
 
 ### Settings for Afterglow-magenta
 
-    {
-        "theme": "Afterglow-magenta.sublime-theme",
-        "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
-    }
+```json
+{
+    "theme": "Afterglow-magenta.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+```
 
 ### Settings for Afterglow-orange
 
-    {
-        "theme": "Afterglow-orange.sublime-theme",
-        "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
-    }
+```json
+{
+    "theme": "Afterglow-orange.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+```
 
 ### Settings for Afterglow-green
 
-    {
-        "theme": "Afterglow-green.sublime-theme",
-        "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
-    }
+```json
+{
+    "theme": "Afterglow-green.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+```
 
 
-## Tab Height Size Options
+## Configuration
+
+### Tab Height Size Options
 
 You can change the height of the file tabs (medium or small) by adding either to your preferences file `Sublime Text -> Preferences -> Settings - User`:
 
-    {
-        "tabs_medium": true
-    }
+```json
+{
+    "tabs_medium": true
+}
+```
 
 or
 
-    {
-        "tabs_small": true
-    }
+```json
+{
+    "tabs_small": true
+}
+```
 
 ![Afterglow Tabs](Screenshots/Afterglow-tabs.png)
 
 
-## Sidebar Size Options
+### Sidebar Size Options
 
 You can change the font size of the sidebar and the row padding.
 
 To **change the font size** (12, 13 or 14; default size is 11), you must add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
 
-    {
-        "sidebar_size_12": true
-    }
+```json
+{
+    "sidebar_size_12": true
+}
+```
 
 or
 
-    {
-        "sidebar_size_13": true
-    }
+```json
+{
+    "sidebar_size_13": true
+}
+```
 
 or
 
-    {
-        "sidebar_size_14": true
-    }
+```json
+{
+    "sidebar_size_14": true
+}
+```
 
 ![Afterglow Sidebar Size](Screenshots/Afterglow-sidebar-size.png)
 
 
 To **change the row padding** (medium or large), you must add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
 
-    {
-        "sidebar_row_padding_medium": true
-    }
+```json
+{
+    "sidebar_row_padding_medium": true
+}
+```
 
 or
 
-    {
-        "sidebar_row_padding_large": true
-    }
+```json
+{
+    "sidebar_row_padding_large": true
+}
+```
 
 ![Afterglow Sidebar Row Padding](Screenshots/Afterglow-sidebar-row-padding.png)
+
+
+### Status bar brighter
+
+If you prefer that the status bar has a brighter color, you have to add this in your user preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "status_bar_brighter": true
+}
+```
+
+![Afterglow Status bar brighter](Screenshots/Afterglow-status-bar.png)
+
+
+### Color inactive tabs
+
+You can highlight the color of inactive tabs, adding this to the user preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "color_inactive_tabs": true
+}
+```
+
+![Afterglow Color inactive tabs](Screenshots/Afterglow-inactive-tabs.png)
 
 
 ## Markdown
@@ -175,14 +227,16 @@ First, **open a markdown(.md) file**, then navigate to `Sublime Text -> Preferen
 
 Add to your current settings or replace with the following:
 
-    {
-        "color_scheme": "Packages/Theme - Afterglow/Afterglow-markdown.tmTheme",
-        "draw_centered": true,
-        "draw_indent_guides": false,
-        "trim_trailing_white_space_on_save": false,
-        "word_wrap": true,
-        "wrap_width": 80  // Sets the # of characters per line
-    }
+```json
+{
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow-markdown.tmTheme",
+    "draw_centered": true,
+    "draw_indent_guides": false,
+    "trim_trailing_white_space_on_save": false,
+    "word_wrap": true,
+    "wrap_width": 80  // Sets the # of characters per line
+}
+```
 
 
 ## Dock Icon
