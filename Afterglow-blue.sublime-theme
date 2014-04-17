@@ -450,7 +450,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [81, 81, 81] // 02
+        "color": [160, 160, 160] // 02
     },
 
 //
