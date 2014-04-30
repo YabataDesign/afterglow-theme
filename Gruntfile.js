@@ -9,8 +9,8 @@ module.exports = function(grunt) {
    //    },
    //    all: [
    //      'Gruntfile.js',
-   //      'js/*.js',
-   //      '!js/scripts.min.js'
+   //      'scripts/*.js',
+   //      '!scripts/scripts.min.js'
    //    ]
    //  },
     less: {
@@ -22,15 +22,18 @@ module.exports = function(grunt) {
         },
         options: {
           compress: true,
+          sourceMap: true,
+          sourceMapFilename: 'css/main.css.map',
+          sourceMapRootpath: '/'
         }
       }
     },
     // uglify: {
     //   dist: {
     //     files: {
-    //       'js/scripts.min.js': [
-    //         'js/vendor/bootstrap.min.js',
-    //         'js/vendor/user.js'
+    //       'scripts/scripts.min.js': [
+    //         'scripts/vendor/bootstrap.min.js',
+    //         'scripts/vendor/user.js'
     //       ]
     //     },
     //     options: {
@@ -57,13 +60,14 @@ module.exports = function(grunt) {
         },
         files: [
           // 'js/scripts.min.js',
-          'css/main.css'
+          'css/main.css',
+          'index.html'
         ]
       }
     },
     clean: {
       dist: [
-        // 'js/scripts.min.js',
+        // 'scripts/scripts.min.js',
         'css/main.css'
       ]
     }
@@ -81,9 +85,6 @@ module.exports = function(grunt) {
     'clean',
     'less',
     // 'uglify',
-    'watch'
-]);
-  grunt.registerTask('dev', [
     'watch'
   ]);
 

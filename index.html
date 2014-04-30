@@ -2,77 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Theme Afterglow - A minimal dark Theme for Sublime Text 2 and 3</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Theme Afterglow</title>
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans:400,300,600'>
+    <meta name="author" content="Yabata Design - José María Clemente - www.yabatadesign.com">
+    <meta name="description" content="Afterglow - A minimal dark Theme for Sublime Text 2 and 3">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Inconsolata:400|Josefin+Sans:300|Open+Sans:400,300,600">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
-    <div class="bg">
-        <div class="pattern">
-            <div id="head">
-                 <header>
-                    <h1>Afterglow</h1>
-                </header>
+<body ng-app="afterglowApp">
+    <header>
+        <h1>Afterglow</h1>
+    </header>
+    <section class="pattern">
+        <div class="description container">
+            <h2>A minimal dark Theme for Sublime Text</h2>
+            <div ng-controller="ImageCtrl">
+                <div class="screenshots">
+                    <img err-src="img/Afterglow.sublime-theme.png" ng-src="{{imageUI}}" alt="Afterglow ">
+                    <img err-src="img/Afterglow.tmTheme.png" ng-src="{{imageColor}}" alt="A dark minimal Theme for Sublime Text 2 and 3" class="second">
+                </div>
+                <form ng-submit="changeImage()">
+                    <div class="row">
+                      <div class="col-md-4"></div>
+                      <div class="col-md-4"><a href="" id="custom">Custom</a></div>
+                      <div class="col-md-4 text-left"><input id="submit" type="submit" value="Save"></div>
+                    </div>
+                    <div id="custom-program" class="text-left">
+                        <p class="no-indent">{</p>
+                        <p class="comment">// Theme UI (values = "Afterglow", "Afterglow-blue", "Afterglow-green", "Afterglow-magenta", "Afterglow-orange")</p>
+                        <p>"theme": <span>"</span><input ng-model="UI" type="text" value="Afterglow.sublime-theme"><span>",</span></p>
+                        <p class="comment space">// Color scheme (values = "Afterglow", "Afterglow-monokai", "Afterglow-twilight")</p>
+                        <p>"color_scheme": <span>"Packages/Theme - Afterglow/</span><input ng-model="color" type="text" value="Afterglow.tmTheme"><span>"</span></p>
+                        <p class="no-indent">}</p>
+                    </div>
+                </form>
             </div>
-            <div class="container">
-                <section class="description">
-                    <h2>A minimal dark Theme for Sublime Text</h2>
-                    <img src="img/screenshot.png" alt="Afterglow - A dark minimal Theme for Sublime Text">
-                </section>
+         </div>
+    </section>
+    <section class="nobackground">
+        <div class="features container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/three_tabs.png" alt="Three heights of tabs" data-at2x="img/three_tabs@2x.png">
+                    <h3>Three heights of tabs</h3>
+                    <p>Afterglow Theme supports three different heights in the tabs. Just have to change the user preferences file.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/markdown.png" alt="Support for Markdwon" data-at2x="img/markdown@2x.png">
+                    <h3>Support for Markdown</h3>
+                    <p>In addition to the default color scheme, you have a specific .tmTheme for Markdown syntax.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/colors.png" alt="Differents colors" data-at2x="img/colors@2x.png">
+                    <h3>Differents colors</h3>
+                    <p>You have different colors (orange, blue, magenta and green) that blend perfectly with the default color scheme.</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="nobackground">
-        <section class="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="img/three_tabs.png" alt="Three heights of tabs" data-at2x="img/three_tabs@2x.png">
-                        <h3>Three heights of tabs</h3>
-                        <p>Afterglow Theme supports three different heights in the tabs. Just have to change the user preferences file.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/markdown.png" alt="Support for Markdwon" data-at2x="img/markdown@2x.png">
-                        <h3>Support for Markdwon</h3>
-                        <p>In addition to the default color scheme, you have a specific .tmTheme for Markdown syntax.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/colors.png" alt="Differents colors" data-at2x="img/colors@2x.png">
-                        <h3>Differents colors</h3>
-                        <p>You have different colors (orange, blue, magenta and green) that blend perfectly with the default color scheme.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="get">
-        <div class="pattern">
-            <div class="container">
-                <section class="github">
-                    <div class="container">
-                        <a href="https://github.com/YabataDesign/afterglow-theme">Get it on Github</a>
-                    </div>
-                </section>
+    </section>
+    <section class="pattern">
+        <div class="container">
+            <div class="github">
+                <a href="https://github.com/YabataDesign/afterglow-theme">Get it on Github</a>
             </div>
         </div>
-    </div>
-    <div class="nobackground foot">
-        <footer>
-            <div class="container">
-                <div class="col-md-6 align-right">
-                    <a href="http://www.yabatadesign.com" target="_blank"><img src="img/logo-yabata.png" alt="Yabata Design" data-at2x="img/logo-yabata@2x.png"></a>
-                </div>
-                <div class="col-md-6 align-left">
-                    <a href="https://twitter.com/yabatadesign" target="_blank"><span class="icon-twitter"></span></a>
-                    <a href="https://plus.google.com/+Yabatadesign" target="_blank"><span class="icon-google-plus"></span></a>
-                    <a href="https://www.behance.net/yabatadesign" target="_blank"><span class="icon-behance"></span></a>
-                    <a href="https://github.com/YabataDesign" target="_blank"><span class="icon-github"></span></a>
-                </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="col-md-6 text-right">
+                <a href="http://www.yabatadesign.com" target="_blank"><img src="img/logo-yabata.png" alt="Yabata Design" data-at2x="img/logo-yabata@2x.png"></a>
             </div>
-        </footer>
-    </div>
-    <script src="js/retina.js"></script>
+            <div class="col-md-6 text-left">
+                <a href="https://twitter.com/yabatadesign" target="_blank"><span class="icon-twitter"></span></a>
+                <a href="https://plus.google.com/+Yabatadesign" target="_blank"><span class="icon-google-plus"></span></a>
+                <a href="https://www.behance.net/yabatadesign" target="_blank"><span class="icon-behance"></span></a>
+                <a href="https://github.com/YabataDesign" target="_blank"><span class="icon-github"></span></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-50422408-1', 'yabatadesign.github.io');
+        ga('send', 'pageview');
+    </script>
+    <script src="scripts/vendor/retina.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready( function($) {
+            $('body').prepend('<img id="background" src="img/background.jpg">');
+        });
+    </script>
 </body>
 </html>
