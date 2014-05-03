@@ -285,6 +285,8 @@
         <string>#2F33AB</string>
       </dict>
     </dict>
+
+<!--  LESS and CSS -->
     <dict>
       <key>name</key>
       <string>CSS: units</string>
@@ -294,6 +296,72 @@
       <dict>
         <key>foreground</key>
         <string>#b4c973</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>css.id</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.id.css</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#cc7732</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>css.class</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#cc7732</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>less.mixin</string>
+      <key>scope</key>
+      <string>entity.other.less.mixin</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#a1617a</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>less.variable</string>
+      <key>scope</key>
+      <string>variable.declaration.less</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#cc7732</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>css.element</string>
+      <key>scope</key>
+      <string>keyword.control.html.elements</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#e5b567</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>css.string</string>
+      <key>scope</key>
+      <string>meta.attribute-selector.css</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#cc7732</string>
       </dict>
     </dict>
   </array>
