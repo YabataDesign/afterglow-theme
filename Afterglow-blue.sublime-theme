@@ -709,6 +709,19 @@
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Afterglow/Afterglow/folder-open.png"
     },
+    // Icons build 3062
+    {
+        "class": "icon_file_type",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "content_margin": [0,0]
+    },
 
 //
 // STANDARD TEXT BUTTONS
