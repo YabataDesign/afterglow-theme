@@ -15,7 +15,8 @@ body {
 }
 header {
     text-align: center;
-    background: #000;
+    // background-color: rgba(0, 0, 0, 0.7);
+    background-color: #000000;
     .opacity(0.7);
     position: fixed;
     width: 100%;
@@ -26,7 +27,7 @@ h1 {
     text-transform: uppercase;
     margin: 0;
     padding: 18px 0 12px;
-    color: #cecece;
+    color: #b0b0b0;
 }
 h2 {
     font-weight: 300;
@@ -62,7 +63,7 @@ p {
     width: 100%;
     height: auto;
 }
-.button (@size) {
+.button(@size) {
     font-size: @size;
     padding: 12px 32px;;
     border: 2px solid #c5c5c5;
@@ -83,11 +84,11 @@ p {
 .github {
     padding: 150px 0 170px;
     a {
-        .button (32px);
+        .button(32px);
     }
 }
 .description a {
-    .button (20px);
+    .button(20px);
     margin-top: 50px;
 }
 // .bg {
@@ -209,7 +210,7 @@ input#submit {
 
 #custom-program {
     display: none;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(46, 46, 46, 1);
     .border-top-radius(10px);
     .border-right-radius(10px);
     .border-bottom-radius(10px);
@@ -276,8 +277,11 @@ input#submit {
    ========================================================================== */
 
 @media (max-width: @screen-xs-min) {
-    .github a {
-        font-size: 25px;
+    .github {
+        padding: 100px 0 120px;
+        a {
+            .button(25px);
+        }
     }
     a#custom {
         display: none;
@@ -298,7 +302,7 @@ input#submit {
     #background {
         position:fixed;
         width:auto;
-        left: -1600px;
+        left: -340px;
         height:auto;
     }
     .nobackground {

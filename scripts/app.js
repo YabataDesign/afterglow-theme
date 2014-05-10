@@ -2,7 +2,7 @@ var app = angular.module('afterglowApp', []);
 
 function ImageCtrl($scope) {
     $scope.imageUI = 'img/Afterglow.sublime-theme.png';
-    $scope.imageColor = 'img/Afterglow.tmTheme.png'
+    $scope.imageColor = 'img/Afterglow.tmTheme.png';
     $scope.UI = 'Afterglow.sublime-theme';
     $scope.color = 'Afterglow.tmTheme';
 
@@ -19,6 +19,6 @@ app.directive('errSrc', function() {
         element.attr('src', attrs.errSrc);
       });
     }
-  }
+  };
 });
 
