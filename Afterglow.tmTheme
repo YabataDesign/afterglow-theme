@@ -286,7 +286,7 @@
       </dict>
     </dict>
 
-<!--  LESS and CSS -->
+<!--  LESS, SASS and CSS -->
     <dict>
       <key>name</key>
       <string>CSS: units</string>
@@ -364,8 +364,6 @@
         <string>#cc7732</string>
       </dict>
     </dict>
-
-<!--  SASS -->
     <dict>
       <key>name</key>
       <string>Keyword.control</string>
@@ -375,6 +373,63 @@
       <dict>
         <key>foreground</key>
         <string>#a1617a</string>
+      </dict>
+    </dict>
+
+<!-- GIT GUTTER -->
+    <dict>
+      <key>name</key>
+      <string>GitGutter deleted</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#cc7732</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter inserted</string>
+      <key>scope</key>
+      <string>markup.inserted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#b4c973</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter changed</string>
+      <key>scope</key>
+      <string>markup.changed.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#6c99bb</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter ignored</string>
+      <key>scope</key>
+      <string>markup.ignored.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999999</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter untracked</string>
+      <key>scope</key>
+      <string>markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#cccccc</string>
       </dict>
     </dict>
   </array>
