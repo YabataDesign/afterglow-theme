@@ -1,0 +1,315 @@
+@import "bootstrap/bootstrap";
+
+
+// Custom
+body {
+    background-color: #7e4c3b;
+}
+#background {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+header {
+    text-align: center;
+    // background-color: rgba(0, 0, 0, 0.7);
+    background-color: #000000;
+    @include opacity(0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 18px 0 12px;
+    color: #b0b0b0;
+}
+h2 {
+    font-weight: 300;
+    padding: 100px 0;
+    color: #fff;
+}
+p {
+    line-height: 1.8em;
+}
+.features,
+.github,
+.center,
+.description {
+    text-align: center;
+}
+.description {
+    padding-bottom: 150px;
+    padding-top: 75px;
+}
+.nobackground {
+    width: 100%;
+    text-align: center;
+    padding: 200px 0 120px;
+    background: #e4e4e4;
+    h3 {
+        padding: 20px 0;
+    }
+    .col-md-4 {
+        padding-bottom: 80px;
+    }
+}
+.description img, .features img {
+    width: 100%;
+    height: auto;
+}
+@mixin button($size) {
+    font-size: $size;
+    padding: 12px 32px;;
+    border: 2px solid #c5c5c5;
+    color: #e4e4e4;
+    text-decoration: none;
+    background: none;
+    display: inline-block;
+    @include border-top-radius(40px);
+    @include border-right-radius(40px);
+    @include border-bottom-radius(40px);
+    @include border-left-radius(40px);
+    &:hover {
+        // background: #e4e4e4;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+    }
+}
+.github {
+    padding: 150px 0 170px;
+    a {
+        @include button(32px);
+    }
+}
+.description a {
+    @include button(20px);
+    margin-top: 50px;
+}
+.pattern {
+     background: url('../img/dist/pattern.png');
+}
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?1bdsrk');
+    src:url('../fonts/icomoon.eot?#iefix1bdsrk') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?1bdsrk') format('woff'),
+        url('../fonts/icomoon.ttf?1bdsrk') format('truetype'),
+        url('../fonts/icomoon.svg?1bdsrk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    background: #e4e4e4;
+    padding: 80px 0;
+    span {
+        display: inline-table;
+        width: 22px;
+        height: 22px;
+        margin: 6px 8px 10px 5px;
+        font-size: 22px;
+        background-color: #bbbbbb;
+        @include transition (background-color 300ms linear);
+        color: #f4f4f4;
+        @include border-top-radius(40px);
+        @include border-right-radius(40px);
+        @include border-bottom-radius(40px);
+        @include border-left-radius(40px);
+        padding: 8px;
+        text-align: center;
+    }
+    .icon-twitter {
+        padding: 8px 9px;
+        &:before {
+            content: "\f099";
+        }
+        &:hover {
+            background-color: #55acee;
+        }
+    }
+    .icon-google-plus {
+        padding: 8px 9px;
+        &:before {
+            content: "\f0d5";
+        }
+        &:hover {
+            background-color: #dd4b39;
+        }
+    }
+    .icon-github {
+        &:before {
+            content: "\e600";
+        }
+        &:hover {
+            background-color: #333333;
+        }
+    }
+    .icon-behance {
+        &:before {
+            content: "\e601";
+        }
+        &:hover {
+            background-color: #1377ff;
+        }
+    }
+    .col-md-6 {
+        padding-bottom: 10px;
+    }
+}
+input#submit {
+    @include button(20px);
+    margin-top: 50px;
+    background: #c45330;
+    border: 2px solid #c45330;
+    display: none;
+    &:hover {
+        border: 2px solid #cc7732;
+        background: #cc7732;
+    }
+    &:focus, &:hover, &:active {
+        outline:0px !important;
+        -webkit-appearance:none;
+    }
+}
+
+#custom-program {
+    display: none;
+    background-color: rgba(46, 46, 46, 1);
+    @include border-top-radius(10px);
+    @include border-right-radius(10px);
+    @include border-bottom-radius(10px);
+    @include border-left-radius(10px);
+    margin-top: 60px;
+    padding: 25px;
+    p {
+        color: #b4c973;
+        font-family: $font-family-monospace;
+        font-size: 18px;
+        line-height: 1.3em;
+        padding: 0 0 0 40px;
+        margin: 0;
+        &.no-indent {
+            padding-left: 0;
+        }
+        &.comment {
+            color: #797979;
+        }
+        &.space {
+            padding-top: 30px;
+        }
+        span {
+            color: #d6d6d6;
+        }
+        input {
+            background: none;
+            border: 0;
+            width: auto;
+            color: #d6d6d6;
+            @include placeholder(#d6d6d6);
+            cursor: pointer;
+            &:focus, &:hover, &:active {
+                outline:0px !important;
+                -webkit-appearance:none;
+            }
+        }
+    }
+}
+#error-form {
+    display: none;
+    background-color: rgba(196, 83, 48, 0.4);
+    @include border-top-radius(10px);
+    @include border-right-radius(10px);
+    @include border-bottom-radius(10px);
+    @include border-left-radius(10px);
+    margin-top: 60px;
+    padding: 25px;
+    &.visible {
+        display: block;
+    }
+}
+.screenshots {
+    position: relative;
+    .second {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: $screen-xs-min) {
+    .github {
+        padding: 100px 0 120px;
+        a {
+            @include button(25px);
+        }
+    }
+    a#custom {
+        display: none;
+    }
+}
+
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+    a#custom {
+        display: none;
+    }
+}
+
+@media (max-width: $screen-sm-min) {
+    header {
+        position: relative;
+        width: 100%;
+    }
+    #background {
+        position:fixed;
+        width:auto;
+        left: -340px;
+        height:auto;
+    }
+    .nobackground {
+        padding: 70px 0 40px;
+    }
+    h2 {
+        padding: 50px 0;
+    }
+    .description {
+        padding-bottom: 80px;
+        padding-top: 0;
+    }
+    .text-right, .text-left {
+        text-align: center;
+    }
+}
+
+@media (max-width: $screen-md-min) {
+    #custom-program.text-left {
+        text-align: left;
+    }
+    .text-right, .text-left {
+        text-align: center;
+    }
+}

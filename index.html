@@ -8,7 +8,7 @@
     <meta name="author" content="Yabata Design - José María Clemente - www.yabatadesign.com">
     <meta name="description" content="Afterglow - A minimal dark Theme for Sublime Text 2 and 3">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Inconsolata:400|Josefin+Sans:300|Open+Sans:400,300,600">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/clean.css">
 </head>
 <body ng-app="afterglowApp">
     <header>
@@ -19,8 +19,8 @@
             <h2>A minimal dark Theme for Sublime Text</h2>
             <div ng-controller="ImageCtrl">
                 <div class="screenshots">
-                    <img err-src="img/Afterglow.sublime-theme.png" ng-src="{{imageUI}}" alt="Afterglow ">
-                    <img err-src="img/Afterglow.tmTheme.png" ng-src="{{imageColor}}" alt="A dark minimal Theme for Sublime Text 2 and 3" class="second">
+                    <img err-src="img/dist/Afterglow.sublime-theme.png" ng-src="{{imageUI}}" alt="Afterglow ">
+                    <img err-src="img/dist/Afterglow.tmTheme.png" ng-src="{{imageColor}}" alt="A dark minimal Theme for Sublime Text 2 and 3" class="second">
                 </div>
                 <form ng-submit="changeImage()">
                     <div class="row">
@@ -44,17 +44,17 @@
         <div class="features container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/three_tabs.png" alt="Three heights of tabs" data-at2x="img/three_tabs@2x.png">
+                    <img src="img/dist/three_tabs.png" alt="Three heights of tabs" data-at2x="img/dist/three_tabs@2x.png">
                     <h3>Three heights of tabs</h3>
                     <p>Afterglow Theme supports three different heights in the tabs. Just have to change the user preferences file.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/markdown.png" alt="Support for Markdwon" data-at2x="img/markdown@2x.png">
+                    <img src="img/dist/markdown.png" alt="Support for Markdwon" data-at2x="img/dist/markdown@2x.png">
                     <h3>Support for Markdown</h3>
                     <p>In addition to the default color scheme, you have a specific .tmTheme for Markdown syntax.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/colors.png" alt="Differents colors" data-at2x="img/colors@2x.png">
+                    <img src="img/dist/colors.png" alt="Differents colors" data-at2x="img/dist/colors@2x.png">
                     <h3>Differents colors</h3>
                     <p>You have different colors (orange, blue, magenta and green) that blend perfectly with the default color scheme.</p>
                 </div>
@@ -71,7 +71,7 @@
     <footer>
         <div class="container">
             <div class="col-md-6 text-right">
-                <a href="http://www.yabatadesign.com" target="_blank"><img src="img/logo-yabata.png" alt="Yabata Design" data-at2x="img/logo-yabata@2x.png"></a>
+                <a href="http://www.yabatadesign.com" target="_blank"><img src="img/dist/logo-yabata.png" alt="Yabata Design" data-at2x="img/dist/logo-yabata@2x.png"></a>
             </div>
             <div class="col-md-6 text-left">
                 <a href="https://twitter.com/yabatadesign" target="_blank"><span class="icon-twitter"></span></a>

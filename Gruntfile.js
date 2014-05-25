@@ -1,91 +1,109 @@
 'use strict';
 module.exports = function(grunt) {
 
+  // show elapsed time at the end
+  require('time-grunt')(grunt);
+
   grunt.initConfig({
    pkg: grunt.file.readJSON('package.json'),
-   // jshint: {
-   //    options: {
-   //      jshintrc: '.jshintrc'
-   //    },
-   //    all: [
-   //      'Gruntfile.js',
-   //      'scripts/*.js',
-   //      '!scripts/scripts.min.js'
-   //    ]
-   //  },
-    less: {
+    sass: {
       dist: {
-        files: {
-          'css/main.css': [
-            'less/main.less'
-          ]
-        },
         options: {
-          compress: true,
           sourceMap: true,
-          sourceMapFilename: 'css/main.css.map',
-          sourceMapRootpath: '/'
+          outputStyle: 'compressed', // nested, compressed
+        },
+        files: {
+          'css/main.css': 'sass/main.scss'
         }
       }
     },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       'scripts/scripts.min.js': [
-    //         'scripts/vendor/bootstrap.min.js',
-    //         'scripts/vendor/user.js'
-    //       ]
-    //     },
-    //     options: {
-    //     }
-    //   }
-    // },
-    watch: {
-      less: {
-        files: [
-          'less/*.less',
-          'less/bootstrap/*.less'
-        ],
-        tasks: ['less']
+    notify: {
+      sass: {
+        options: {
+          message: 'SASS compile OK'
+        }
       },
-      // js: {
-      //   files: [
-      //     '<%= jshint.all %>'
-      //   ],
-      //   tasks: ['jshint', 'uglify']
-      // },
+      uncss: {
+        options: {
+          message: 'Uncss clean OK'
+        }
+      },
+      imagemin: {
+        options: {
+          message: 'Images minify OK'
+        }
+      }
+    },
+    watch: {
+      sass: {
+        files: [
+          'sass/*.scss',
+          'sass/bootstrap/**/*.scss'
+        ],
+        tasks: ['sass', 'notify:sass']
+      },
       livereload: {
         options: {
           livereload: true
         },
         files: [
-          // 'js/scripts.min.js',
           'css/main.css',
           'index.html'
         ]
       }
     },
     clean: {
-      dist: [
-        // 'scripts/scripts.min.js',
+      dev: [
         'css/main.css'
+      ],
+      dist: [
+        'css/clean.css'
       ]
+    },
+    uncss: {
+      dist: {
+        options: {
+          ignore: ['#background'],
+          ignoreSheets: [/fonts.googleapis/],
+        },
+        files: {
+          'css/clean.css': ['index.html']
+        }
+      }
+    },
+    imagemin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'img/dev/',
+          src: ['**/*.{png,jpg,gif}'],
+          dest: 'img/dist/'
+        }]
+      }
     }
   });
 
   // Load tasks
   grunt.loadNpmTasks('grunt-contrib-clean');
-  // grunt.loadNpmTasks('grunt-contrib-jshint');
-  // grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-notify');
+  grunt.loadNpmTasks('grunt-uncss');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   // Register tasks
   grunt.registerTask('default', [
-    'clean',
-    'less',
-    // 'uglify',
+    'clean:dev',
+    'sass',
+    'notify:sass',
     'watch'
+  ]);
+  grunt.registerTask('dist', [
+    'clean:dist',
+    'uncss:dist',
+    'notify:uncss',
+    'imagemin',
+    'notify:imagemin'
   ]);
 
 };
