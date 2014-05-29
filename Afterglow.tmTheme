@@ -432,6 +432,41 @@
         <string>#cccccc</string>
       </dict>
     </dict>
+
+<!-- SUBLIME LINTER -->
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Warning</string>
+      <key>scope</key>
+      <string>sublimelinter.mark.warning</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#e5b567</string>
+      </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>SublimeLinter Error</string>
+        <key>scope</key>
+        <string>sublimelinter.mark.error</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#c45330</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>SublimeLinter Gutter Mark</string>
+        <key>scope</key>
+        <string>sublimelinter.gutter-mark</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</string>
+        </dict>
+    </dict>
   </array>
   <key>uuid</key>
   <string>B80CD0D8-613C-46FD-9C06-A1201108BC2A</string>
