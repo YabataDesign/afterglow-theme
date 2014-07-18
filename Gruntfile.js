@@ -63,7 +63,7 @@ module.exports = function(grunt) {
     uncss: {
       dist: {
         options: {
-          ignore: ['#background'],
+          // ignore: ['#background'],
           ignoreSheets: [/fonts.googleapis/],
         },
         files: {

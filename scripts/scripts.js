@@ -1,7 +1,3 @@
-jQuery(document).ready( function($) {
-    $('body').prepend('<img id="background" src="img/dist/background.jpg">');
-});
-
 $("#custom").click(function(e) {
     e.preventDefault();
     $("#custom-program").slideToggle("slow");

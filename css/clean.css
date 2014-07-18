@@ -287,16 +287,16 @@ p {
 }
 
 body {
-  background-color: #7e4c3b;
+  background-color: #e4858d;
+  background: url(../img/dist/background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+  display: none;
 }
 
 header {
@@ -366,8 +366,8 @@ p {
 .github a {
   font-size: 32px;
   padding: 12px 32px;
-  border: 2px solid #c5c5c5;
-  color: #e4e4e4;
+  border: 2px solid #ffffff;
+  color: #ffffff;
   text-decoration: none;
   background: none;
   display: inline-block;
@@ -379,18 +379,22 @@ p {
   border-bottom-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 .github a:hover {
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #e9878b;
   border: 2px solid #ffffff;
 }
 
 .description a {
   font-size: 20px;
   padding: 12px 32px;
-  border: 2px solid #c5c5c5;
-  color: #e4e4e4;
+  border: 2px solid #ffffff;
+  color: #ffffff;
   text-decoration: none;
   background: none;
   display: inline-block;
@@ -402,16 +406,16 @@ p {
   border-bottom-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
   margin-top: 50px;
 }
 
 .description a:hover {
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #e9878b;
   border: 2px solid #ffffff;
-}
-
-.pattern {
-  background: url('../img/dist/pattern.png');
 }
 
 @font-face {
@@ -460,12 +464,12 @@ footer span {
   border-bottom-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
-  padding: 8px;
+  padding: 10px;
   text-align: center;
 }
 
 footer .icon-twitter {
-  padding: 8px 9px;
+  padding: 10px 11px;
 }
 
 footer .icon-twitter:before {
@@ -477,7 +481,7 @@ footer .icon-twitter:hover {
 }
 
 footer .icon-google-plus {
-  padding: 8px 9px;
+  padding: 10px 11px;
 }
 
 footer .icon-google-plus:before {
@@ -511,8 +515,8 @@ footer .col-md-6 {
 input#submit {
   font-size: 20px;
   padding: 12px 32px;
-  border: 2px solid #c5c5c5;
-  color: #e4e4e4;
+  border: 2px solid #ffffff;
+  color: #ffffff;
   text-decoration: none;
   background: none;
   display: inline-block;
@@ -524,20 +528,25 @@ input#submit {
   border-bottom-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
   margin-top: 50px;
-  background: #c45330;
-  border: 2px solid #c45330;
+  background: #6b476e;
+  border: 2px solid #6b476e;
   display: none;
 }
 
 input#submit:hover {
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #e9878b;
   border: 2px solid #ffffff;
 }
 
 input#submit:hover {
-  border: 2px solid #cc7732;
-  background: #cc7732;
+  border: 2px solid #866089;
+  background: #866089;
+  color: #ffffff;
 }
 
 input#submit:focus,
@@ -629,8 +638,8 @@ input#submit:active {
   .github a {
     font-size: 25px;
     padding: 12px 32px;
-    border: 2px solid #c5c5c5;
-    color: #e4e4e4;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     text-decoration: none;
     background: none;
     display: inline-block;
@@ -642,10 +651,14 @@ input#submit:active {
     border-bottom-left-radius: 40px;
     border-bottom-left-radius: 40px;
     border-top-left-radius: 40px;
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
   }
 
   .github a:hover {
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #e9878b;
     border: 2px solid #ffffff;
   }
 
@@ -664,13 +677,6 @@ input#submit:active {
   header {
     position: relative;
     width: 100%;
-  }
-
-  #background {
-    position: fixed;
-    width: auto;
-    left: -340px;
-    height: auto;
   }
 
   .nobackground {
@@ -693,6 +699,22 @@ input#submit:active {
 }
 
 @media (max-width: 992px) {
+  body {
+    background: none;
+  }
+
+  #background {
+    display: block;
+    position: fixed;
+    width: 200%;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    width: 400%;
+    left: -80%;
+    overflow: hidden;
+  }
+
   #custom-program.text-left {
     text-align: left;
   }

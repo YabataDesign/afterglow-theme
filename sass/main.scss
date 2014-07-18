@@ -3,15 +3,21 @@
 
 // Custom
 body {
-    background-color: #7e4c3b;
+    background-color: #e4858d;
+    background: url(../img/dist/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #background {
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    z-index: -1;
+    // position:fixed;
+    // top:0;
+    // left:0;
+    // width:100%;
+    // height:100%;
+    // z-index: -1;
+    display: none;
 }
 header {
     text-align: center;
@@ -66,8 +72,8 @@ p {
 @mixin button($size) {
     font-size: $size;
     padding: 12px 32px;;
-    border: 2px solid #c5c5c5;
-    color: #e4e4e4;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     text-decoration: none;
     background: none;
     display: inline-block;
@@ -75,9 +81,11 @@ p {
     @include border-right-radius(40px);
     @include border-bottom-radius(40px);
     @include border-left-radius(40px);
+    @include transition (all 200ms linear);
     &:hover {
         // background: #e4e4e4;
-        color: #ffffff;
+        background-color: #ffffff;
+        color: #e9878b;
         border: 2px solid #ffffff;
     }
 }
@@ -92,7 +100,7 @@ p {
     margin-top: 50px;
 }
 .pattern {
-     background: url('../img/dist/pattern.png');
+     // background: url('../img/dist/pattern.png');
 }
 @font-face {
     font-family: 'icomoon';
@@ -136,11 +144,11 @@ footer {
         @include border-right-radius(40px);
         @include border-bottom-radius(40px);
         @include border-left-radius(40px);
-        padding: 8px;
+        padding: 10px;
         text-align: center;
     }
     .icon-twitter {
-        padding: 8px 9px;
+        padding: 10px 11px;
         &:before {
             content: "\f099";
         }
@@ -149,7 +157,7 @@ footer {
         }
     }
     .icon-google-plus {
-        padding: 8px 9px;
+        padding: 10px 11px;
         &:before {
             content: "\f0d5";
         }
@@ -180,12 +188,13 @@ footer {
 input#submit {
     @include button(20px);
     margin-top: 50px;
-    background: #c45330;
-    border: 2px solid #c45330;
+    background: #6b476e;
+    border: 2px solid #6b476e;
     display: none;
     &:hover {
-        border: 2px solid #cc7732;
-        background: #cc7732;
+        border: 2px solid #866089;
+        background: #866089;
+        color: #ffffff;
     }
     &:focus, &:hover, &:active {
         outline:0px !important;
@@ -284,12 +293,6 @@ input#submit {
         position: relative;
         width: 100%;
     }
-    #background {
-        position:fixed;
-        width:auto;
-        left: -340px;
-        height:auto;
-    }
     .nobackground {
         padding: 70px 0 40px;
     }
@@ -306,6 +309,20 @@ input#submit {
 }
 
 @media (max-width: $screen-md-min) {
+    body {
+        background: none;
+    }
+    #background {
+        display: block;
+        position:fixed;
+        width: 200%;
+        left: 0;
+        height:100%;
+        z-index: -1;
+        width: 400%;
+        left: -80%;
+        overflow: hidden;
+    }
     #custom-program.text-left {
         text-align: left;
     }
