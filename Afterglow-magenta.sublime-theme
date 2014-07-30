@@ -64,6 +64,12 @@
         "content_margin": [22, 0, 22, 0]
     },
     {
+        //  - Tab close state small
+        "class": "tab_control",
+        "settings": ["show_tab_close_buttons", "tabs_small"],
+        "content_margin": [8, 0, 5, 0]
+    },
+    {
         //  - Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
