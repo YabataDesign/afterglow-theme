@@ -64,6 +64,18 @@
         "content_margin": [22, 0, 22, 0]
     },
     {
+        //  - Tab close state padding medium
+        "class": "tab_control",
+        "settings": ["tabs_padding_medium"],
+        "content_margin": [16, 0, 12, 0]
+    },
+    {
+        //  - Tab close state padding small
+        "class": "tab_control",
+        "settings": ["tabs_padding_small"],
+        "content_margin": [8, 0, 5, 0]
+    },
+    {
         //  - Hover tab state
         "class": "tab_control",
         "attributes": ["hover"],
