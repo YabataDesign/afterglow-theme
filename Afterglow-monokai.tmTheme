@@ -108,8 +108,8 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>foreground</key>
+				<string>#cc7732</string>
 			</dict>
 		</dict>
 		<dict>
