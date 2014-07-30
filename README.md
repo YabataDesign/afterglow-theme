@@ -222,6 +222,30 @@ You can highlight the color of inactive tabs, adding this to the user preference
 ```
 
 
+### Horizontal padding tabs
+
+![Afterglow Horizontal padding tabs](Screenshots/Afterglow-horizontal-padding-tabs.png)
+
+Through the user preferences file, you can modify the horizontal padding of tabs. It works on all three types of height tabs (default, "tabs_medium" and "tabs_small").
+
+You must add this to your user preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "tabs_padding_medium": true
+}
+```
+
+or
+
+```json
+{
+    "tabs_padding_small": true
+}
+```
+
+
+
 ## Color schemes
 
 ### Afterglow - Monokai
