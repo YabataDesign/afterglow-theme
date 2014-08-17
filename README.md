@@ -280,7 +280,11 @@ If you prefer, you can use the color scheme `Afterglow - Twilight` (very slightl
 
 ![Afterglow markdown](Screenshots/Afterglow-markdown.png)
 
+**NEW:** This color scheme support **Github Flavored Markdown**.
+
 #### To enable Afteglow for Markdown
+
+(I highly recommend installing [Sublime Markdown Extending plugin](https://github.com/jonschlinkert/sublime-markdown-extended).)
 
 First, **open a markdown(.md) file**, then navigate to `Sublime Text -> Preferences -> Settings - More -> Syntax Specific - User` in the menu bar.
 

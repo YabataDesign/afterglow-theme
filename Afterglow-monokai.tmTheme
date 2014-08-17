@@ -105,11 +105,22 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable.other.readwrite.instance.coffee</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cc7732</string>
+				<string>#E87D3E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entity name</string>
+			<key>scope</key>
+			<string>entity.name.type.class.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b4c973</string>
 			</dict>
 		</dict>
 		<dict>
@@ -198,7 +209,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#cc7732</string>
+				<string>#E87D3E</string>
 			</dict>
 		</dict>
 		<dict>
