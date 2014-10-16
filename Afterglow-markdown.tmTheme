@@ -576,6 +576,156 @@
                 <string>#e5b567</string>
             </dict>
         </dict>
+
+<!-- Critic Markup -->
+        <dict>
+            <key>name</key>
+            <string>Comments</string>
+            <key>scope</key>
+            <string>comment, comment punctuation</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#ADADAD</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Addition</string>
+            <key>scope</key>
+            <string>string.addition</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#00CD09</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>highlight</string>
+            <key>scope</key>
+            <string>string.highlight</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#DF37DD</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Deletion</string>
+            <key>scope</key>
+            <string>string.deletion</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#D51D00</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>comment</string>
+            <key>scope</key>
+            <string>string.comment</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#4D5CD3</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>blockcomment</string>
+            <key>scope</key>
+            <string>string.blockcomment</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#4D5CD3</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>substitution</string>
+            <key>scope</key>
+            <string>string.substitution</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#E78400</string>
+            </dict>
+        </dict>
+
+<!-- GitGutter -->
+        <dict>
+          <key>name</key>
+          <string>GitGutter deleted</string>
+          <key>scope</key>
+          <string>markup.deleted.git_gutter</string>
+          <key>settings</key>
+          <dict>
+            <key>foreground</key>
+            <string>#F92672</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>GitGutter inserted</string>
+          <key>scope</key>
+          <string>markup.inserted.git_gutter</string>
+          <key>settings</key>
+          <dict>
+            <key>foreground</key>
+            <string>#A6E22E</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>GitGutter changed</string>
+          <key>scope</key>
+          <string>markup.changed.git_gutter</string>
+          <key>settings</key>
+          <dict>
+            <key>foreground</key>
+            <string>#967EFB</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>GitGutter ignored</string>
+          <key>scope</key>
+          <string>markup.ignored.git_gutter</string>
+          <key>settings</key>
+          <dict>
+            <key>foreground</key>
+            <string>#565656</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>name</key>
+          <string>GitGutter untracked</string>
+          <key>scope</key>
+          <string>markup.untracked.git_gutter</string>
+          <key>settings</key>
+          <dict>
+            <key>foreground</key>
+            <string>#565656</string>
+          </dict>
+        </dict>
     </array>
 </dict>
 </plist>
