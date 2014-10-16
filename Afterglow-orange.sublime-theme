@@ -169,6 +169,13 @@
         "settings": ["highlight_modified_tabs"]
     },
 
+    // - Preview tab
+    {
+        "class": "tab_label",
+        "attributes": ["transient"],
+        "font.italic": true
+    },
+
 // TAB BUTTONS
 //
 
