@@ -827,28 +827,33 @@
     },
     {
         "class": "quick_panel_row",
+        "attributes": ["hover"],
+        "layer0.tint": [108, 153, 187, 80] // 03
+    },
+    {
+        "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [38, 38, 38] // -01
+        "layer0.tint": [108, 153, 187], // 03
     },
     {
         "class": "quick_panel_label",
         "fg": [160, 160, 160, 255], // 04
         "match_fg": [211, 211, 211, 255], // 05
-        "selected_fg": [211, 211, 211, 255], // 05
-        "selected_match_fg": [242, 242, 242, 255] // 07
+        "selected_fg": [230, 230, 230, 255], // 05
+        "selected_match_fg": [255, 255, 255, 255] // 07
     },
     {
         "class": "quick_panel_path_label",
         "fg": [116, 116, 116, 255], // 03
         "match_fg": [160, 160, 160, 255], // 04
-        "selected_fg": [116, 116, 116, 255], // 03
-        "selected_match_fg": [160, 160, 160, 255] // 04
+        "selected_fg": [210, 210, 210, 255], // 03
+        "selected_match_fg": [240, 240, 240, 255] // 04
     },
     {
         "class": "quick_panel_score_label",
         "fg": [116, 116, 116, 255], // 03
-        "selected_fg": [116, 116, 116, 255] // 03
+        "selected_fg": [255, 255, 255, 255] // 03
     },
 
 //
@@ -863,9 +868,14 @@
     },
     {
         "class": "mini_quick_panel_row",
+        "attributes": ["hover"],
+        "layer0.tint": [108, 153, 187, 80] // 03
+    },
+    {
+        "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [38, 38, 38] // -01
+        "layer0.tint": [108, 153, 187], // 03
     },
 
 //
@@ -886,8 +896,8 @@
         "class": "auto_complete_label",
         "fg": [116, 116, 116, 255], // 03
         "match_fg": [211, 211, 211, 255], // 05
-        "selected_fg": [116, 116, 116, 255], // 03
-        "selected_match_fg": [211, 211, 211, 255] // 05
+        "selected_fg": [230, 230, 230, 255], // 03
+        "selected_match_fg": [255, 255, 255, 255] // 05
     },
     {
         "class": "table_row",
@@ -898,8 +908,15 @@
     },
     {
         "class": "table_row",
+        "attributes": ["hover"],
+        "layer0.opacity": 1,
+        "layer0.tint": [108, 153, 187, 80], // 03
+    },
+    {
+        "class": "table_row",
         "attributes": ["selected"],
-        "layer0.opacity": 1
+        "layer0.opacity": 1,
+        "layer0.tint": [108, 153, 187], // 03
     },
 
 //
