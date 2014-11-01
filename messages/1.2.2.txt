@@ -1,0 +1,3 @@
+v. 1.2.2
+
+- Now is possible to change horizontal padding of tabs (via user preferences file).

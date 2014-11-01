@@ -1,0 +1,3 @@
+v. 1.2.6
+
+- Add GitGutter y Critic Markup to Afterglow-markdown.tmTheme.

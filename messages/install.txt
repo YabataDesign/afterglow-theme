@@ -1,0 +1,43 @@
+
+Welcome to Afterglow Theme
+
+
+To activate the theme, add or replace your current theme settings with the code below.
+
+
+**Settings for Afterglow**
+{
+    "theme": "Afterglow.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+
+**Settings for Afterglow-blue**
+{
+    "theme": "Afterglow-blue.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+
+**Settings for Afterglow-magenta**
+{
+    "theme": "Afterglow-magenta.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+
+**Settings for Afterglow-orange**
+{
+    "theme": "Afterglow-orange.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+
+**Settings for Afterglow-green**
+{
+    "theme": "Afterglow-green.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+
+
+If you know other settings (height of the tabs, sidebar options, ...), visit this page:
+https://github.com/YabataDesign/afterglow-theme/blob/master/README.md
+
+
+*** IMPORTANT - Make sure to restart Sublime after installing and activating Afterglow ***

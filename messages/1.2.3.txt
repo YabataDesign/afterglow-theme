@@ -1,0 +1,4 @@
+v. 1.2.3
+
+- Update Readme.md and new screenshot.
+- Add highlight for "@" and "this" in CoffeeScript

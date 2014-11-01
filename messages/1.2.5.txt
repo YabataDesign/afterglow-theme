@@ -1,0 +1,3 @@
+v. 1.2.5
+
+- Italic font in Preview Tab.

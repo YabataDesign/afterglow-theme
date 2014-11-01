@@ -1,0 +1,5 @@
+v. 1.2.7
+
+- Merge pull request #21 from @jCrip: Change hover and select color to quick panel and mini panel and Change match fg color in Afterglow-blue.sublime-theme.
+- Change hover and select color to quick panel and mini panel in color Sheme default, magenta, green and orange.
+- Add messages.
