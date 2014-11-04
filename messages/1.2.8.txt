@@ -1,0 +1,3 @@
+v. 1.2.8
+
+Reverted changes of version v. 1.2.7 (see issue #23: https://github.com/YabataDesign/afterglow-theme/issues/23).
