@@ -827,11 +827,6 @@
     },
     {
         "class": "quick_panel_row",
-        "attributes": ["hover"],
-        "layer0.tint": [38, 38, 38, 90] // -01
-    },
-    {
-        "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
         "layer0.tint": [38, 38, 38] // -01
@@ -872,17 +867,6 @@
         "layer0.texture": "",
         "layer0.tint": [38, 38, 38] // -01
     },
-    {
-        "class": "mini_quick_panel_row",
-        "attributes": ["hover"],
-        "layer0.tint": [38, 38, 38, 90] // -01
-    },
-    {
-        "class": "mini_quick_panel_row",
-        "attributes": ["selected"],
-        "layer0.texture": "",
-        "layer0.tint": [38, 38, 38] // -01
-    },
 
 //
 // CODE COMPLETION DROPDOWN
@@ -914,15 +898,8 @@
     },
     {
         "class": "table_row",
-        "attributes": ["hover"],
-        "layer0.opacity": 1,
-        "layer0.tint": [38, 38, 38, 90] // -01
-    },
-    {
-        "class": "table_row",
         "attributes": ["selected"],
-        "layer0.opacity": 1,
-        "layer0.tint": [38, 38, 38] // -01
+        "layer0.opacity": 1
     },
 
 //
