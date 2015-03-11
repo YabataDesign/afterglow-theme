@@ -68,7 +68,7 @@ Then, clone the repository using this command:
 
 ## Activating the Theme
 
-Activate this theme and color scheme by modifying  your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
+Activate this theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
 
 Then add the following code settings, depending on the theme you choose. **(After activating the theme, you must restart Sublime Text.)**
 
