@@ -728,7 +728,7 @@
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Afterglow/Afterglow/folder-open.png"
     },
-    // Icons build 3062
+    // Icons sidebar
     {
         "class": "icon_folder",
         "content_margin": [0,0]
@@ -739,9 +739,13 @@
     },
     {
         "class": "icon_file_type",
-        // "layer0.opacity": 0.5,
         "layer0.opacity": 0.6,
         "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_file_type",
+        "settings": ["sidebar_no_icon"],
+        "content_margin": [0, 0]
     },
     {
         "class": "icon_file_type",
