@@ -1,6 +1,6 @@
 # Afterglow
 
-Afterglow is a minimal dark Theme for Sublime Text 2 and 3. Also it is a syntax color scheme. The theme is based on the great theme [Spacegray](https://github.com/kkga/spacegray). The syntax color scheme is mostly derived from [idlefingers](http://idlefingers.co.uk/).
+Afterglow is a minimal dark Theme for Sublime Text 2 and 3. Also it is a syntax color scheme. The theme is based on the great theme [Spacegray](https://github.com/kkga/spacegray). The syntax color scheme is mostly derived from [idlefingers](http://idlefingers.co.uk/). 
 
 
 ## Design & Colors
@@ -119,6 +119,21 @@ Then add the following code settings, depending on the theme you choose. **(Afte
 
 
 ## Configuration
+
+### Sidebar icons
+
+**New:** Now Afterglow theme support sidebar icons. 
+
+![Afterglow sidebar icons](Screenshots/Afterglow-sidebar-icons.png)
+
+Don't like the icons? Just add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "sidebar_no_icon": true
+}
+```
+
 
 ### Tab Height Size Options
 
