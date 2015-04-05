@@ -16,6 +16,7 @@
 		<string>.git-blame</string>
 		<string>.git-commit</string>
 		<string>.git-graph</string>
+		<string>.gitkeep</string>
 	</array>
 	<key>patterns</key>
 	<array>
