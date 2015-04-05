@@ -1119,6 +1119,20 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [108, 153, 187] // 07
+    },
+
+// Symlink
+    {
+        "class": "icon_folder_dup",
+        "layer0.texture": "Theme - Afterglow/Afterglow/folder_dup.png",
+        "layer0.opacity": 0.6,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder_dup",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Afterglow/Afterglow/folder_dup.png",
+        "layer0.opacity": 1,
     }
 
 ]
