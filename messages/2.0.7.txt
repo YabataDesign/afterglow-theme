@@ -1,0 +1,3 @@
+v. 2.0.7
+
+Add icons for sidebar: docker, python, rust, latex, scala, lua, elixir, clojure. (Thanks to @kavu). Add symlink icon for sidebar.
