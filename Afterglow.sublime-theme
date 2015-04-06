@@ -1132,7 +1132,7 @@
         "class": "icon_folder_dup",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Afterglow/Afterglow/folder_dup.png",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1
     }
 
 ]
