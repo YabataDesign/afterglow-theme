@@ -17,6 +17,6 @@
     </dict>
   </array>
   <key>scopeName</key>
-  <string>source.dockerfile</string>
+  <string>text.plain, source.dockerfile</string>
 </dict>
 </plist>
