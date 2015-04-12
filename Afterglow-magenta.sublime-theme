@@ -175,6 +175,11 @@
         "attributes": ["transient"],
         "font.italic": true
     },
+    {
+        "class": "tab_label",
+        "settings": ["tabs_label_not_italic"],
+        "font.italic": false
+    },
 
 // TAB BUTTONS
 //
