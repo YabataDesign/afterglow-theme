@@ -1,6 +1,6 @@
 # Afterglow
 
-Afterglow is a minimal dark Theme for Sublime Text 2 and 3. Also it is a syntax color scheme. The theme is based on the great theme [Spacegray](https://github.com/kkga/spacegray). The syntax color scheme is mostly derived from [idlefingers](http://idlefingers.co.uk/). 
+Afterglow is a minimal dark Theme for Sublime Text 2 and 3. Also it is a syntax color scheme. The theme is based on the great theme [Spacegray](https://github.com/kkga/spacegray). The syntax color scheme is mostly derived from [idlefingers](http://idlefingers.co.uk/).
 
 **Special thanks** to Max Riveiro [@kavu](https://github.com/kavu) for add a lot of icons for sidebar to this repository.
 
@@ -123,7 +123,7 @@ Then add the following code settings, depending on the theme you choose. **(Afte
 
 ### Sidebar icons
 
-**New:** Now Afterglow theme support sidebar icons. 
+**New:** Now Afterglow theme support sidebar icons.
 
 ![Afterglow sidebar icons](Screenshots/Afterglow-sidebar-icons.png)
 
@@ -260,6 +260,17 @@ or
 }
 ```
 
+### Non-italic tab labels on Windows
+
+![Afterglow tabs not italic](Screenshots/Afterglow-tabs-italic.png)
+
+On Windows, tab labels are displayed in *italic* font. If you don't like that, you can add this to the user preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "tabs_label_not_italic": true
+}
+```
 
 
 ## Color schemes
@@ -268,7 +279,7 @@ or
 
 ![Afterglow Monokai](Screenshots/Afterglow-monokai.png)
 
-Besides color scheme by default, you can use the color scheme `Afterglow - Monokai` based on the original `Monokai`, slightly modified to be consistent with the Theme colors. 
+Besides color scheme by default, you can use the color scheme `Afterglow - Monokai` based on the original `Monokai`, slightly modified to be consistent with the Theme colors.
 
 You must add this in your user preferences file `Sublime Text -> Preferences -> Settings - User`:
 
