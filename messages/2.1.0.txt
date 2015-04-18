@@ -1,0 +1,3 @@
+v. 2.1.0
+
+Add tabs_label_not_italic theme option. Thanks to Sören Schwert (@sisou).
