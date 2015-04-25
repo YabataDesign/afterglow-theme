@@ -501,7 +501,7 @@
         "class": "sidebar_tree",
         "row_padding": [8,4],
         "indent": 16,
-        "indent_offset": 16,
+        "indent_offset": 0,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -511,7 +511,7 @@
         "settings": ["sidebar_row_padding_medium"],
         "row_padding": [8,5],
         "indent": 16,
-        "indent_offset": 16,
+        "indent_offset": 0,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -521,7 +521,7 @@
         "settings": ["sidebar_row_padding_large"],
         "row_padding": [8,6],
         "indent": 16,
-        "indent_offset": 16,
+        "indent_offset": 0,
         "indent_top_level": false,
         "dark_content": true
     },
