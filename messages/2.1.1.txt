@@ -1,0 +1,3 @@
+v. 2.1.1
+
+Sidebar folder and files align fix. Thanks to Rutger Schimmel (@indri-indri).
