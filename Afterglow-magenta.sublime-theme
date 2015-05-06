@@ -696,11 +696,6 @@
     },
     {
         "class": "icon_file_type",
-        "settings": ["sidebar_no_icon"],
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "icon_file_type",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
@@ -708,6 +703,11 @@
         "class": "icon_file_type",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_file_type",
+        "settings": ["sidebar_no_icon"],
+        "layer0.opacity": 0.0,
     },
 
 //
