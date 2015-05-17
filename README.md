@@ -135,6 +135,14 @@ Don't like the icons? Just add this to your preferences file `Sublime Text -> Pr
 }
 ```
 
+Don't like the folde icon? Just add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "folder_no_icon": true
+}
+```
+
 
 ### Tab Height Size Options
 
