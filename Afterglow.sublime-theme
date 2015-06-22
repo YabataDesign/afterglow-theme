@@ -94,7 +94,7 @@
         "class": "tab_control",
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-modified.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-orange.png",
         "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty.png"
     },
     {
@@ -103,7 +103,7 @@
         "attributes": ["dirty"],
         "settings": ["tabs_medium"],
         "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-medium.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-modified-medium.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-orange-medium.png",
         "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-medium.png"
     },
     {
@@ -112,7 +112,7 @@
         "attributes": ["dirty"],
         "settings": ["tabs_small"],
         "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-small.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-modified-small.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-orange-small.png",
         "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-small.png"
     },
 
