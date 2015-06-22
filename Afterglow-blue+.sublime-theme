@@ -48,7 +48,7 @@
         "layer0.opacity": 1.0,
 
         //  - Active tab setting
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-blue.png",
         "layer1.inner_margin": [0,0],
         "layer1.opacity": 0.0,
 
@@ -56,6 +56,18 @@
         "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover.png",
         "layer2.inner_margin": [0,0],
         "layer2.opacity": 0.0
+    },
+    {
+        //  - Active tab state - medium
+        "class": "tab_control",
+        "settings": ["tabs_medium"],
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-blue-medium.png",
+    },
+    {
+        //  - Active tab state - small
+        "class": "tab_control",
+        "settings": ["tabs_small"],
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-blue-small.png",
     },
     {
         //  - Tab close state
@@ -93,27 +105,27 @@
         //  - Modified tab state
         "class": "tab_control",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-blue.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-modified-blue.png",
-        "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-blue.png"
+        "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-magenta.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-purple.png",
+        "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-magenta.png"
     },
     {
         //  - Modified tab state
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["tabs_medium"],
-        "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-blue-medium.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-modified-blue-medium.png",
-        "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-blue-medium.png"
+        "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-magenta-medium.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-purple-medium.png",
+        "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-magenta-medium.png"
     },
     {
         //  - Modified tab state
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["tabs_small"],
-        "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-blue-small.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-modified-blue-small.png",
-        "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-blue-small.png"
+        "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-magenta-small.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-purple-small.png",
+        "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-magenta-small.png"
     },
 
     //  - Tab labels
