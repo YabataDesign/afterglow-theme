@@ -14,13 +14,9 @@ I wasn't to happy with the default, that active but unmodified files had no bott
 
 ![Afterglow blue+](Screenshots/Afterglow-blue+.png)
 
-[View a larger screenshot](https://raw.githubusercontent.com/maxxst/afterglow-theme/master/Screenshots/Afterglow-blue+.png)
-
-#### Active file modified (dirty)
+#### Active file modified (dirty) 
 
 ![Afterglow blue+ modified](Screenshots/Afterglow-blue+-modified.png)
-
-[View a larger screenshot](https://raw.githubusercontent.com/maxxst/afterglow-theme/master/Screenshots/Afterglow-blue+-modified.png)
 
 
 ### Afterglow magenta+
@@ -29,13 +25,9 @@ I wasn't to happy with the default, that active but unmodified files had no bott
 
 ![Afterglow magenta+](Screenshots/Afterglow-magenta+.png)
 
-[View a larger screenshot](https://raw.githubusercontent.com/maxxst/afterglow-theme/master/Screenshots/Afterglow-magenta+.png)
-
 #### Active file modified (dirty)
 
 ![Afterglow magenta+ modified](Screenshots/Afterglow-magenta+-modified.png)
-
-[View a larger screenshot](https://raw.githubusercontent.com/maxxst/afterglow-theme/master/Screenshots/Afterglow-magenta+-modified.png)
 
 
 ### Afterglow orange+
@@ -44,13 +36,9 @@ I wasn't to happy with the default, that active but unmodified files had no bott
 
 ![Afterglow orange+](Screenshots/Afterglow-orange+.png)
 
-[View a larger screenshot](https://raw.githubusercontent.com/maxxst/afterglow-theme/master/Screenshots/Afterglow-orange+.png)
-
 #### Active file modified (dirty)
 
 ![Afterglow orange+ modified](Screenshots/Afterglow-orange+-modified.png)
-
-[View a larger screenshot](https://raw.githubusercontent.com/maxxst/afterglow-theme/master/Screenshots/Afterglow-orange+-modified.png)
 
 
 ### Afterglow green+
@@ -59,13 +47,10 @@ I wasn't to happy with the default, that active but unmodified files had no bott
 
 ![Afterglow green+](Screenshots/Afterglow-green+.png)
 
-[View a larger screenshot](https://raw.githubusercontent.com/maxxst/afterglow-theme/master/Screenshots/Afterglow-green+.png)
 
 #### Active file modified (dirty)
 
 ![Afterglow green+ modified](Screenshots/Afterglow-green+-modified.png)
-
-[View a larger screenshot](https://raw.githubusercontent.com/maxxst/afterglow-theme/master/Screenshots/Afterglow-green+-modified.png)
 
 
 ## Installation
