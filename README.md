@@ -220,6 +220,33 @@ or
 ```
 
 
+### Statusbar font size
+
+To **change the font size** (12, 13 or 14; default size is 11), you must add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "statusbar_size_12": true
+}
+```
+
+or
+
+```json
+{
+    "statusbar_size_13": true
+}
+```
+
+or
+
+```json
+{
+    "statusbar_size_14": true
+}
+```
+
+
 ### Status bar brighter
 
 ![Afterglow Status bar brighter](Screenshots/Afterglow-status-bar.png)
