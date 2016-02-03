@@ -507,6 +507,61 @@
 				<string>#CF6A4C</string>
 			</dict>
 		</dict>
+		<dict>
+      <key>name</key>
+      <string>GitGutter deleted</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CF4F4D</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter inserted</string>
+      <key>scope</key>
+      <string>markup.inserted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8F9D6A</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter changed</string>
+      <key>scope</key>
+      <string>markup.changed.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFcc66</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter ignored</string>
+      <key>scope</key>
+      <string>markup.ignored.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#aaaaaa</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter untracked</string>
+      <key>scope</key>
+      <string>markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
 	</array>
 	<key>uuid</key>
 	<string>766026CB-703D-4610-B070-8DE07D967C5F</string>
