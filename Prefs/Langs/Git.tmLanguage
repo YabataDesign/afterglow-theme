@@ -17,6 +17,7 @@
 		<string>.git-commit</string>
 		<string>.git-graph</string>
 		<string>.gitkeep</string>
+		<string>.gitmodules</string>
 	</array>
 	<key>patterns</key>
 	<array>
