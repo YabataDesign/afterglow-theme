@@ -1,59 +1,54 @@
-# Afterglow Plus
+# Afterglow
 
-This is an extension to [Afterglow](https://github.com/YabataDesign/afterglow-theme) a minimal dark Theme for Sublime Text 2 and 3. Also it is a syntax color scheme. The original theme is based on the great theme [Spacegray](https://github.com/kkga/spacegray). The syntax color scheme is mostly derived from [idlefingers](http://idlefingers.co.uk/).
+Afterglow is a minimal dark Theme for Sublime Text 2 and 3. Also it is a syntax color scheme. The theme is based on the great theme [Spacegray](https://github.com/kkga/spacegray). The syntax color scheme is mostly derived from [idlefingers](http://idlefingers.co.uk/).
 
 **Special thanks** to Max Riveiro [@kavu](https://github.com/kavu) for add a lot of icons for sidebar to this repository.
 
 ## Design & Colors
 
-I wasn't to happy with the default, that active but unmodified files had no bottom border. So I extended Afterglow with plus-themes.
+#### Afterglow default
 
-### Afterglow blue+
+![Afterglow](Screenshots/Afterglow-default.png)
 
-#### Active file not modified (clean)
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-default.png)
 
-![Afterglow blue+](Screenshots/Afterglow-blue+.png)
+#### Afterglow blue
 
-#### Active file modified (dirty) 
+![Afterglow blue](Screenshots/Afterglow-blue.png)
 
-![Afterglow blue+ modified](Screenshots/Afterglow-blue+-modified.png)
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-blue.png)
 
+#### Afterglow magenta
 
-### Afterglow magenta+
+![Afterglow magenta](Screenshots/Afterglow-magenta.png)
 
-#### Active file not modified (clean)
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-magenta.png)
 
-![Afterglow magenta+](Screenshots/Afterglow-magenta+.png)
+#### Afterglow orange
 
-#### Active file modified (dirty)
+![Afterglow orange](Screenshots/Afterglow-orange.png)
 
-![Afterglow magenta+ modified](Screenshots/Afterglow-magenta+-modified.png)
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-orange.png)
 
+#### Afterglow green
 
-### Afterglow orange+
+![Afterglow green](Screenshots/Afterglow-green.png)
 
-#### Active file not modified (clean)
+[View a larger screenshot](https://raw.githubusercontent.com/YabataDesign/afterglow-theme/master/Screenshots/Afterglow-green.png)
 
-![Afterglow orange+](Screenshots/Afterglow-orange+.png)
-
-#### Active file modified (dirty)
-
-![Afterglow orange+ modified](Screenshots/Afterglow-orange+-modified.png)
-
-
-### Afterglow green+
-
-#### Active file not modified (clean)
-
-![Afterglow green+](Screenshots/Afterglow-green+.png)
-
-
-#### Active file modified (dirty)
-
-![Afterglow green+ modified](Screenshots/Afterglow-green+-modified.png)
+*The font used in the screenshots is [__Inconsolata -g__](http://leonardo-m.livejournal.com/77079.html).*
 
 
 ## Installation
+
+### Package Control
+
+The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net/).
+
+* Open `Command Palette` using menu item `Tools -> Command Palette...`, or `Cmd+Shift+P` (OS X) `Ctrl+Shift+P` (Win/Linux)
+* Type `Package Control: Install Package`
+* Search `Theme - Afterglow`
+
 
 ### Git Installation
 
@@ -61,12 +56,12 @@ Locate your Sublime Text `Packages directory` by using the menu item `Preference
 
 Then, clone the repository using this command:
 
-    git clone https://github.com/maxxst/afterglow-theme/ "Theme - Afterglow"
+    git clone https://github.com/Yabatadesign/afterglow-theme/ "Theme - Afterglow"
 
 
 ### Manual installation
 
-* Download the [GitHub .zip](https://github.com/maxxst/afterglow-theme/archive/master.zip)
+* Download the [GitHub .zip](https://github.com/Yabatadesign/afterglow-theme/archive/master.zip)
 * Unzip the files and rename the folder to `Theme - Afterglow`
 * Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
 * Copy the folder into your Sublime Text `Packages` directory.
@@ -78,11 +73,20 @@ Activate this theme and color scheme by modifying your user preferences file, wh
 
 Then add the following code settings, depending on the theme you choose. **(After activating the theme, you must restart Sublime Text.)**
 
+### Settings for Afterglow
+
+```json
+{
+    "theme": "Afterglow.sublime-theme",
+    "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
+}
+```
+
 ### Settings for Afterglow-blue
 
 ```json
 {
-    "theme": "Afterglow-blue+.sublime-theme",
+    "theme": "Afterglow-blue.sublime-theme",
     "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
 }
 ```
@@ -91,7 +95,7 @@ Then add the following code settings, depending on the theme you choose. **(Afte
 
 ```json
 {
-    "theme": "Afterglow-magenta+.sublime-theme",
+    "theme": "Afterglow-magenta.sublime-theme",
     "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
 }
 ```
@@ -100,7 +104,7 @@ Then add the following code settings, depending on the theme you choose. **(Afte
 
 ```json
 {
-    "theme": "Afterglow-orange+.sublime-theme",
+    "theme": "Afterglow-orange.sublime-theme",
     "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
 }
 ```
@@ -109,7 +113,7 @@ Then add the following code settings, depending on the theme you choose. **(Afte
 
 ```json
 {
-    "theme": "Afterglow-green+.sublime-theme",
+    "theme": "Afterglow-green.sublime-theme",
     "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme"
 }
 ```

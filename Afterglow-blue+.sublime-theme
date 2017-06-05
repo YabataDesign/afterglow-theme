@@ -48,7 +48,7 @@
         "layer0.opacity": 1.0,
 
         //  - Active tab setting
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-blue.png",
         "layer1.inner_margin": [0,0],
         "layer1.opacity": 0.0,
 
@@ -56,6 +56,18 @@
         "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover.png",
         "layer2.inner_margin": [0,0],
         "layer2.opacity": 0.0
+    },
+    {
+        //  - Active tab state - medium
+        "class": "tab_control",
+        "settings": ["tabs_medium"],
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-blue-medium.png",
+    },
+    {
+        //  - Active tab state - small
+        "class": "tab_control",
+        "settings": ["tabs_small"],
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-blue-small.png",
     },
     {
         //  - Tab close state
@@ -94,7 +106,7 @@
         "class": "tab_control",
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-magenta.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-magenta.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-purple.png",
         "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-magenta.png"
     },
     {
@@ -103,7 +115,7 @@
         "attributes": ["dirty"],
         "settings": ["tabs_medium"],
         "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-magenta-medium.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-magenta-medium.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-purple-medium.png",
         "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-magenta-medium.png"
     },
     {
@@ -112,7 +124,7 @@
         "attributes": ["dirty"],
         "settings": ["tabs_small"],
         "layer0.texture": "Theme - Afterglow/Afterglow/tab-inactive-modified-magenta-small.png",
-        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-magenta-small.png",
+        "layer1.texture": "Theme - Afterglow/Afterglow/tab-active-purple-small.png",
         "layer2.texture": "Theme - Afterglow/Afterglow/tab-hover-dirty-magenta-small.png"
     },
 
@@ -131,7 +143,7 @@
     {
         "class": "tab_label",
         "settings": ["color_inactive_tabs"],
-        "fg": [119, 59, 84] // 03
+        "fg": [108, 153, 187] // 03
     },
 
     //  - Active tab label
@@ -207,7 +219,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [119, 59, 84] // 08
+        "layer0.tint": [108, 153, 187] // 08
     },
     {
         "class": "tab_close_button",
@@ -420,7 +432,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [119, 59, 84] // 0C
+        "color": [108, 153, 187] // 0C
     },
     // Text field labels
     {
@@ -432,7 +444,7 @@
         "class": "label_control",
         "parents": [{"class": "button_control"}],
         "font.bold": true,
-        "color": [119, 59, 84] // 0C
+        "color": [108, 153, 187] // 0C
     },
 
 //
@@ -543,9 +555,8 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        // "color": [119, 59, 84], // 03
-        "color": [128, 67, 93], // 03
-        "color": [119, 59, 84], // 03161
+        // "color": [108, 153, 187], // 03
+        "color": [108, 153, 187], // 03
         "font.bold": true
     },
     // Sidebar heading selected
@@ -635,7 +646,7 @@
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Afterglow/Afterglow/modified.png",
         "layer0.opacity": 1,
-        "layer0.tint": [161, 97, 122] // 0A
+        "layer0.tint": [108, 153, 187] // 0A
     },
     {
         "class": "close_button",
@@ -647,14 +658,14 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [119, 59, 84] // 08
+        "layer0.tint": [108, 153, 187] // 08
     },
     {
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Theme - Afterglow/Afterglow/close.png",
-        "layer0.tint": [119, 59, 84] // 08
+        "layer0.tint": [108, 153, 187] // 08
     },
 
 //
@@ -701,13 +712,13 @@
         "class": "icon_folder",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Afterglow/Afterglow/folder-closed-folder.png",
-        "layer0.tint": [119, 59, 84, 210] // 08
+        "layer0.tint": [108, 153, 187, 100] // 08
     },
     {
         "class": "icon_folder",
         "content_margin": [8,8],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [119, 59, 84, 255] // 08
+        "layer0.tint": [108, 153, 187, 160] // 08
     },
     {
         "class": "icon_folder",
@@ -969,7 +980,7 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
     // Case sensitive search button
     {
@@ -982,7 +993,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
     // Match whole word search button
     {
@@ -995,7 +1006,7 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
 
 //
@@ -1013,7 +1024,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
     // Use search buffer
     {
@@ -1026,7 +1037,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
 
 //
@@ -1043,7 +1054,7 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
     // Search wrap button
     {
@@ -1056,7 +1067,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
     // Search in selection button
     {
@@ -1069,7 +1080,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
 
 //
@@ -1087,7 +1098,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
 
 //
@@ -1105,7 +1116,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [119, 59, 84] // 07
+        "layer0.tint": [108, 153, 187] // 07
     },
 
 // Symlink
