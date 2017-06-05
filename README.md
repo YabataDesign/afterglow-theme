@@ -61,7 +61,7 @@ Then, clone the repository using this command:
 
 ### Manual installation
 
-* Download the [GitHub .zip](https://github.com/Yabatadesign/afterglow-theme/archive/master.zip)
+* Download the [.zip package](https://github.com/Yabatadesign/afterglow-theme/archive/master.zip) from GitHub.
 * Unzip the files and rename the folder to `Theme - Afterglow`
 * Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
 * Copy the folder into your Sublime Text `Packages` directory.
@@ -69,7 +69,7 @@ Then, clone the repository using this command:
 
 ## Activating the Theme
 
-Activate this theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
+Activate this theme and color scheme by modifying  your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
 
 Then add the following code settings, depending on the theme you choose. **(After activating the theme, you must restart Sublime Text.)**
 
@@ -317,7 +317,7 @@ If you prefer, you can use the color scheme `Afterglow - Twilight` (very slightl
 
 **NEW:** This color scheme support **Github Flavored Markdown**.
 
-#### To enable Afteglow for Markdown
+#### To enable Afterglow for Markdown
 
 (I highly recommend installing [Sublime Markdown Extending plugin](https://github.com/jonschlinkert/sublime-markdown-extended).)
 
