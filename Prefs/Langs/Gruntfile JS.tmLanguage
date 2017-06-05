@@ -16,6 +16,6 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.js, source.gruntfile.js</string>
+	<string>source.js, source.js.gruntfile</string>
 </dict>
 </plist>
