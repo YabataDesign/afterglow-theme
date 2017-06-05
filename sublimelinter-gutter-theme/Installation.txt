@@ -1,0 +1,18 @@
+Hello!
+
+I wanted to contribute to this theme by making a VERY trivial gutter theme for sublime linter, just so that the colors match; the default colors in sublime linter look out of place.
+
+I used the yellow color from the default afterglow for the warning (default in sublimelinter is bright yellow).
+I used the magenta/purple color from the default for the error (default in sublimelinter is bright red).
+
+-----------------------------------------------------------
+
+See this link for how to install if you don't use it yet.
+
+http://www.sublimelinter.com/en/latest/gutter_themes.html
+
+-----------------------------------------------------------
+
+There's a screen shot of some javascript with an error and warning in my forked repo inside the sublimelinter-gutter-theme.
+
+Also, because there was no guide for contributing, I just kinda did my own thing, hopefully it isn't too bad.
