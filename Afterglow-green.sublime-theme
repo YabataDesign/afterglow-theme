@@ -476,6 +476,24 @@
         "parents": [{"class": "status_bar"}],
         "color": [81, 81, 81] // 02
     },
+    // Status bar label font size 12
+    {
+        "class": "label_control",
+        "settings": ["statusbar_size_12"],
+        "font.size": 12,
+    },
+    // Status bar label font size 13
+    {
+        "class": "label_control",
+        "settings": ["statusbar_size_13"],
+        "font.size": 13,
+    },
+    // Status bar label font size 14
+    {
+        "class": "label_control",
+        "settings": ["statusbar_size_14"],
+        "font.size": 14,
+    },
     // Status bar label brighter
     {
         "class": "label_control",
