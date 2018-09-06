@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-     <string>source.php, embedding.php</string>
+    <string>source.julia</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
-        <string>file_type_php</string>
+        <string>file_type_julia</string>
     </dict>
 </dict>
 </plist>

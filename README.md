@@ -339,9 +339,9 @@ Add to your current settings or replace with the following:
 
 ## Dock Icon
 
-You can also download a replacement icon for Sublime Text [here](https://github.com/YabataDesign/sublime-text-icon).
+You can also download a replacement icon for Sublime Text [here](https://github.com/evansendra/sublime-text-icon).
 
-![Sublime Text icon](https://raw.githubusercontent.com/YabataDesign/sublime-text-icon/master/Sublime_text_256x256x32.png)
+![Sublime Text icon](https://raw.githubusercontent.com/evansendra/sublime-text-icon/master/Sublime_text_512x512x32.png)
 
 
 ## Retina Resolution UI
