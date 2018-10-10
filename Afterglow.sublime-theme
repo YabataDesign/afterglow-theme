@@ -180,6 +180,24 @@
         "settings": ["tabs_label_not_italic"],
         "font.italic": false
     },
+    // Tab label font size 12
+    {
+        "class": "tab_label",
+        "settings": ["tab_label_size_12"],
+        "font.size": 12
+    },
+    // Tab label font size 13
+    {
+        "class": "tab_label",
+        "settings": ["tab_label_size_13"],
+        "font.size": 13
+    },
+    // Tab label font size 14
+    {
+        "class": "tab_label",
+        "settings": ["tab_label_size_14"],
+        "font.size": 14
+    },
 
 // TAB BUTTONS
 //
