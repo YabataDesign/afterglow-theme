@@ -167,6 +167,33 @@ or
 ```
 
 
+#### Tab font size
+
+To **change the font size** (12, 13 or 14; default size is 11) of the tab label, you must add this to your preferences file `Sublime Text -> Preferences -> Settings - User`:
+
+```json
+{
+    "tab_label_size_12": true
+}
+```
+
+or
+
+```json
+{
+    "tab_label_size_13": true
+}
+```
+
+or
+
+```json
+{
+    "tab_label_size_14": true
+}
+```
+
+
 ### Sidebar Size Options
 
 You can change the font size of the sidebar and the row padding.
